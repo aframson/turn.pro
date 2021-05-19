@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css') }}">
+    <script src="{{url_for('static', filename='Js_scripts/main.js')}}"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="introbox">
+        
+        <img  src="{{user_image}}" alt="" srcset="">
+        
+    </div>
+    <!-- main container  -->
+    <div class="center-box">
+
+        <!-- title box-->
+        <div class="titlebox">
+            <h1 class='title'>Title</h1>
+            <span class='sub-title'>The best ML To-do app</span>
+        </div>
+
+        <!-- input form -->
+       
+
+        <!-- input container -->
+            <div class="input-container">
+                <form action="" class="form" method="post">
+                    <input type="text" name="text" id="input" placeholder="Eneter To-do...">
+                    <i id='send' class="material-icons">add</i>
+                </form>
+            </div>
+
+            <!-- response  -->
+            <div class="response-box">
+               
+                <div class="res">
+                    <div class="emoji-image">
+                        <img class="emoji-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMd0D4PBBtG50O9enuU8LKr45R7rg1x7TDeg&usqp=CAU" alt="emoji" >
+                    </div>
+                    <div class="text">
+                        Eat Rice
+                        <div class="date">
+                            2012-12-10
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="check" id="check">
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</body>
+
+</html>
