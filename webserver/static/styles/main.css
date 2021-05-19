@@ -1,0 +1,132 @@
+
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+}
+
+
+.center-box{
+    /* top:0; */
+    right:0;
+    left:0;
+    margin:auto;
+    margin-top: 100px;
+    position:absolute;
+    /* border:1px solid; */
+    height:auto;
+    width:600px;
+}
+.titlebox{
+    /* border: 1px solid; */
+    padding:20px;
+    width: 91%;
+}
+.title{
+    font-size: 45px;
+    color: black;
+}
+.sub-title{
+   color: gray;
+   font-size:20px;
+}
+.input-container{
+    /* border: 1px solid; */
+    width: 95%;
+    border-radius:5px;
+    height:auto;
+    padding: 10px;
+    box-shadow: 0.001rem 0.001rem 8px gray;
+
+}
+#send{
+  font-size: 40px;
+  margin-top: 15px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 100px;
+}
+#send:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#input{
+    margin: 10px;
+    border:none;
+    width:85%;
+    border-radius: 5px;
+    background-color:#ccc;
+    padding: 10px;
+    font-size: 20px;
+}
+.form{
+
+}
+.introbox{
+    border: 1px solid;
+    right: 0;
+    left:0;
+    margin: auto;
+    position: absolute;
+    width: 50%;
+    height:100%;
+    background-color: white;
+    z-index:90000;
+}
+
+.response-box{
+    /* border: 1px solid; */
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.res{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0.001rem 0.001rem 8px gray;
+    
+}
+.emoji-image{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50px;
+    /* margin: 10px; */
+    /* vertical-align:middle; */
+    align-self: center;
+    margin:0 10px;
+
+}
+.text{
+    width: 400px;
+    /* border:1px solid; */
+    padding:10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight:700;
+    color: rgb(41, 41, 41);
+}
+.checkbox{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50px;
+    /* margin: 10px; */
+    /* vertical-align:middle; */
+    align-self: center;
+    margin:0 10px;
+}
+.emoji-img{
+    max-width:100%;
+    max-height:100px;
+}
+.date{
+    font-size: 14px;
+    color: gray;
+}
+#check{
+    height:30px;
+    width:30px;
+}
