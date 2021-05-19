@@ -7,23 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css') }}">
-    <script src="{{url_for('static', filename='Js_scripts/main.js')}}"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <div class="introbox">
+    <!-- <div class="introbox">
+        <center>
+            <h1 class='apptxt'>M3Y3</h1>
+            <div class='ltxt'>The best ML To-do app</div>
+
+            <img class='todoimg'  src="https://blush-design.imgix.net/collections/L9oIBvB7R7IjzZWxOfIu/v11/Master/Compositions/cropped/Stuff%20To%20Do.svg?w=500&auto=compress&cs=srgb" alt="" srcset="">
+       
+       
+        </center>
+        <center>
+            <div class="bb">
+                <button onclick="shift()" class='butt'>Start</button>
+            </div>
+        </center>
+       
         
-        <img  src="{{user_image}}" alt="" srcset="">
-        
-    </div>
+    </div> -->
     <!-- main container  -->
     <div class="center-box">
+        <center>
+            <h1 class='apptxt'>M3Y3</h1>
+            <div class='ltxt'>The best ML To-do app</div>
 
+            <img class='todoimg'  src="https://blush-design.imgix.net/collections/L9oIBvB7R7IjzZWxOfIu/v11/Master/Compositions/cropped/Stuff%20To%20Do.svg?w=500&auto=compress&cs=srgb" alt="" srcset="">
+       
+       
+        </center>
+       
         <!-- title box-->
         <div class="titlebox">
-            <h1 class='title'>Title</h1>
-            <span class='sub-title'>The best ML To-do app</span>
+           
         </div>
 
         <!-- input form -->
@@ -40,6 +58,8 @@
             <!-- response  -->
             <div class="response-box">
                
+                   
+              
                 <div class="res">
                     <div class="emoji-image">
                         <img class="emoji-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMd0D4PBBtG50O9enuU8LKr45R7rg1x7TDeg&usqp=CAU" alt="emoji" >
@@ -57,6 +77,9 @@
             </div>
 
     </div>
+
+    <script src="{{url_for('static', filename='Js_scripts/main.js')}}"></script>
+
 </body>
 
 </html>
