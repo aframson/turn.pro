@@ -64,12 +64,12 @@ body{
 
 }
 .introbox{
-    border: 1px solid;
+    /* border: 1px solid; */
     right: 0;
     left:0;
     margin: auto;
     position: absolute;
-    width: 50%;
+    width: 100%;
     height:100%;
     background-color: white;
     z-index:90000;
@@ -129,4 +129,33 @@ body{
 #check{
     height:30px;
     width:30px;
+}
+.apptxt{
+    font-size: 55px;
+    color: black;
+    margin-top:-100px;
+}
+.todoimg{
+    margin-top: 50px;
+    height: 150px;
+}
+.ltxt{
+    font-size: 25px;
+    /* margin-top: 50px; */
+    color: gray;
+}
+.butt{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butt:hover{
+    background-color: rgb(32, 32, 32);
 }
